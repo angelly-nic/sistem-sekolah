@@ -19,7 +19,7 @@
 
  <!-- Main Start -->
     <main class="grow container mx-auto ">
-        <div class="mt-8">
+        <div class="mt-8 space-y-4">
              <!-- Card Header Start -->
                 <div class="bg-white shadow p-4 rounded-lg">
                     <h1 class="font-bold text-2xl">Daftar Siswa</h1>
@@ -30,7 +30,7 @@
 
              <!-- Card Content Start -->
               <div class="bg-white rounded-lg shadow">
-                <table>
+                <table class="w-full">
                     <thead class="bg-gray-300">
                         <tr>
                             <th class="px-4 py-2 text-left">No</th>
@@ -38,7 +38,7 @@
                             <th class="px-4 py-2 text-left">Kelas</th>
                             <th class="px-4 py-2 text-left">NIS</th>
                             <th class="px-4 py-2 text-left">No Telephone</th>
-                            <th class="px-4 py-2 text-left">Aksi</th>
+                            <th class="px-4 py-2">Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -49,7 +49,7 @@
                             <td class="px-4 py-2 text-left"> 7765</td>
                             <td class="px-4 py-2 text-left">08987655333</td>
                             <td class="px-4 py-2 ">
-                                <div class="flex justify-center items-center">
+                                <div class="flex justify-center items-center gap-4">
                                     <a href="" class="text-green-300">Detail</a>
                                     <a href="" class="text-yellow-300">Edit</a>
                                     <a href="" class="text-red-300">Hapus</a>
