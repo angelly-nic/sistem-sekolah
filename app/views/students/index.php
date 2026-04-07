@@ -30,7 +30,7 @@
 
              <!-- Card Content Start -->
               <div class="bg-white rounded-lg shadow">
-                <table class="w-full">
+                   <table class="w-full">
                     <thead class="bg-gray-300">
                         <tr>
                             <th class="px-4 py-2 text-left">No</th>
