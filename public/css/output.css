@@ -10,10 +10,6 @@
     --color-red-300: oklch(80.8% 0.114 19.571);
     --color-yellow-300: oklch(90.5% 0.182 98.111);
     --color-green-300: oklch(87.1% 0.15 154.449);
-    --color-blue-100: oklch(93.2% 0.032 255.585);
-    --color-blue-500: oklch(62.3% 0.214 259.815);
-    --color-blue-600: oklch(54.6% 0.245 262.881);
-    --color-blue-700: oklch(48.8% 0.243 264.376);
     --color-blue-900: oklch(37.9% 0.146 265.522);
     --color-gray-100: oklch(96.7% 0.003 264.542);
     --color-gray-200: oklch(92.8% 0.006 264.531);
@@ -213,6 +209,9 @@
   }
   .grid {
     display: grid;
+  }
+  .table {
+    display: table;
   }
   .min-h-screen {
     min-height: 100vh;
